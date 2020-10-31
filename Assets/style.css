@@ -18,16 +18,17 @@ body {
 }
 
 h1 {
-  font-size: 4rem;
-  height: 2em;
+  font-size: 6rem;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 h2 {
   font-size: 4rem;
   text-align: center;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 p {
