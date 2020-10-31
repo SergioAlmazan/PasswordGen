@@ -1,13 +1,7 @@
 # PasswordGen
 Here's an application that generates a random password based on user-selected criteria.
 
-The user will be prompted to choose from the following password criteria:
--Length (must be between 8 and 128 characters)
--Character type:
- -Special characters (see examples)
- -Numeric characters
- -Lowercase characters
- -Uppercase characters
+The user will be prompted to choose from the following password criteria: Length (must be between 8 and 128 characters), Special characters, Numeric characters, Lowercase characters, and Uppercase characters.
 
 The application will validate if the user has put a numerical value between 8-128, if not it will stop and the user will have to click the button again to generate password.
 
