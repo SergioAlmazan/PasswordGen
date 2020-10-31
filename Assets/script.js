@@ -36,11 +36,12 @@ function genPW() {
     if (confirmSpl == true) {
       (newPass.push(SpeChar));
     }
+    //This is validating the character selection to continue
     else if (confirmLow === false && confirmUpp === false && confirmSpl === false && confirmNum === false) {
         alert("You must select one of the character inputs to generate password.");
         return;
     }
- 
+    //This is putting everything together from the selection to generate password
     var pwdStr = newPass.join("");
     var password = "";
  
